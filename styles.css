@@ -131,3 +131,39 @@
 }
 
 
+/* CALL TO ACTION SECTION */
+
+.call-to-action{
+    height: 200px;
+    padding: 50px 0px;
+}
+
+.flex-container3{
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    float: left;
+}
+
+.flex-container3 p{
+    text-align: start;
+    color: #e5e7eb;
+    margin-right: 30px;
+}
+
+.flex-container3 .call{
+    font-weight: bold;
+}
+
+.flex-container3 button{
+
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+
