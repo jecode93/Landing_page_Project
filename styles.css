@@ -1,6 +1,7 @@
 * { 
     margin: 0;
     padding: 0;
+    font-family:'Roboto', 'Oxygen','Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container{
@@ -107,5 +108,26 @@
     margin-top: 15px;
 }
 
+
+/* QUOTE SECTION */
+
+.quote-section{
+    height: 450px;
+    background-color: #e5e7eb;
+}
+
+.quote-section .quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:100;
+    color: #1f2937;
+    padding: 50px;
+    text-align: center;
+}
+
+.quote-section .author{
+    float: right;
+    font-weight: bold;
+}
 
 
