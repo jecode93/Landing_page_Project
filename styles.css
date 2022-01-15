@@ -13,7 +13,7 @@
 
 /* HERO SECTION */
 
-.heroSection{
+.hero-section{
     height: 400px;
     background-color: #1f2937;
 }
@@ -73,5 +73,39 @@
     width: 350px;
     border-radius: 5px;
 }
+
+/* INFORMATION SECTION */
+
+.information-section{
+    height: 350px;
+    padding: 50px 0;
+}
+
+.information-section h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.flex-container2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.flex-container2 .box{
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    border: solid;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.flex-container2 p{
+    margin-top: 15px;
+}
+
 
 
