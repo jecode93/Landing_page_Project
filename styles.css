@@ -112,7 +112,7 @@
 /* QUOTE SECTION */
 
 .quote-section{
-    height: 450px;
+    height: 400px;
     background-color: #e5e7eb;
 }
 
@@ -139,11 +139,12 @@
 }
 
 .flex-container3{
-    display: flex;
     background-color: #3882f6;
     padding: 50px;
     border-radius: 10px;
-    float: left;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
 }
 
 .flex-container3 p{
@@ -156,15 +157,22 @@
     font-weight: bold;
 }
 
-.flex-container3 button{
+.flex-container3 .left{
+    float: left;
+}
 
+
+.flex-container3 button{
     background-color: #3882f6;
     color: white;
     padding: 5px 20px;
     margin-top: 10px;
     border-radius: 5px;
     border-color: white;
+    float: right;
+
 }
+
 
 
 /* FOOTER SECTION */
